@@ -1,4 +1,4 @@
-##My fifth React and Redux project
+## My fifth React and Redux project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
