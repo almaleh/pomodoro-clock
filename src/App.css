@@ -1,14 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,15 +10,55 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 0px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 40pt; 
+  margin: 15px; 
+}
+
+h3 {
+  font-size: 19pt; 
+}
+
+#settings {
+  display: flex; 
+}
+
+.settings-half {
+  margin: 30px;   
+}
+
+.button {
+  font-size: 30pt; 
+  background: none; 
+  border: none; 
+  color: white; 
+}
+
+/* hide the ugly focus highlight 😀 */
+.button:focus {
+  outline: 0 !important;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  transform: scale(0.9, 0.9);
+}
+
+#session-time {
+  margin: 5px; 
+}
+
+#break-time {
+  margin: 5px; 
+}
+
+#controls .button {
+  margin: 10px; 
 }
