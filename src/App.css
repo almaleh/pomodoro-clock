@@ -51,11 +51,11 @@ h3 {
   transform: scale(0.9, 0.9);
 }
 
-#session-time {
+#session-length {
   margin: 5px; 
 }
 
-#break-time {
+#break-length {
   margin: 5px; 
 }
 
